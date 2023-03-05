@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Thennavan</title>
+</head>
+<body>
+    <section class="window">
+        <header class="window-header">
+          <nav class="window-controls">
+            <span class="control-item control-minimize js-minimize">‒</span>
+            <span class="control-item control-maximize js-maximize">□</span>
+            <span class="control-item control-close js-close">˟</span>
+          </nav>
+        </header>
+        <main class="window-content">
+            <div id="terminal-container"></div>
+          <div class="window-cursor">
+            <span class="i-cursor-indicator">root@Thennavan$</span><span class="i-cursor-underscore"></span>
+            <input type="text" class="window-input js-prompt-input" />
+          </div>
+        </main>
+      </section>
+      <div class="prompt-shortcut i-prompt hidden js-open"></div>
+      <script href="script.js"></script>
+</body>
+</html>
